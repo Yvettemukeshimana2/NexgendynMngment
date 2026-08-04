@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #eef7ff;
+  --color-brand-100: #d9edff;
+  --color-brand-500: #2378b8;
+  --color-brand-600: #185f94;
+  --color-brand-700: #174b73;
+  --color-brand-900: #102f49;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  color: #0f172a;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  transition: 150ms ease;
+}
