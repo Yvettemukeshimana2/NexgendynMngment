@@ -30,13 +30,6 @@ Windows PowerShell:
 ```powershell
 Copy-Item .env.example .env.local
 ```
-
-macOS or Linux:
-
-```bash
-cp .env.example .env.local
-```
-
 Then add the values from Firebase Console:
 
 ```env
